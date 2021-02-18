@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="C:/Users/AJ/IdeaProjects/maven(failed)" verbose="0">
+    <classes>
+      <class name="com.sample.maven.SignInTest">
+        <methods>
+          <include name="driverInitialize"/>
+          <include name="skipTest"/>
+          <include name="driverQuit"/>
+        </methods>
+      </class> <!-- com.sample.maven.SignInTest -->
+    </classes>
+  </test> <!-- C:/Users/AJ/IdeaProjects/maven(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

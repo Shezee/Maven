@@ -1,0 +1,13 @@
+20:20:08.514 [main] DEBUG com.sample.maven.SignInTest - Fields cleared
+20:20:08.660 [main] DEBUG com.sample.maven.SignInTest - Username is added in field
+20:20:08.761 [main] DEBUG com.sample.maven.SignInTest - Password is added in field
+20:20:08.880 [main] DEBUG com.sample.maven.SignInTest - Sign In button is clicked
+20:20:08.893 [main] DEBUG com.sample.maven.SignInTest - Page scrolling
+20:20:09.263 [main] DEBUG com.sample.maven.SignInTest - Screenshot of page taken
+20:20:09.366 [main] DEBUG com.sample.maven.SignInTest - Error message displayed - Authentication failed 
+20:20:09.531 [main] DEBUG com.sample.maven.SignInTest - Fields cleared
+20:20:09.655 [main] DEBUG com.sample.maven.SignInTest - Navigating to Forgot Password screen
+20:20:09.839 [main] DEBUG com.sample.maven.SignInTest - Email is entered
+20:20:09.902 [main] DEBUG com.sample.maven.SignInTest - Button clicked
+20:20:10.007 [main] DEBUG com.sample.maven.SignInTest - Error message displayed - Invalid email format
+20:20:10.721 [main] DEBUG com.sample.maven.SignInTest - Page text - Log in to see ThingsBoard in action

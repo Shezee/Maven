@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="basePath">./Logs</Property>
+    </Properties>
+
+    <Appenders>
+        <RollingFile name="Debug" fileName="${basePath}/debug.log" filePattern="${basePath}/debug-%d{yyyy-MM-dd}.log">
+            <LevelRangeFilter minLevel="DEBUG" maxLevel="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="1000" />
+        </RollingFile>
+
+        <RollingFile name="Error" fileName="${basePath}/error.log" filePattern="${basePath}/error-%d{yyyy-MM-dd}.log">
+            <LevelRangeFilter minLevel="ERROR" maxLevel="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="1000" />
+        </RollingFile>
+
+    </Appenders>
+    <Loggers>
+
+        <Logger name="com.sample.maven.SignInTest" additivity = "false">
+            <AppenderRef ref="Debug"/>
+            <AppenderRef ref="Error"/>
+        </Logger>
+
+        <Root level="all">
+            <AppenderRef ref="Debug"/>
+        </Root>
+
+    </Loggers>
+</Configuration>

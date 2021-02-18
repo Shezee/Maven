@@ -1,0 +1,3 @@
+# Created at 2021-02-03T16:39:51.207
+class com.sample.maven.SignInTest cannot be cast to class org.openqa.selenium.WebDriver (com.sample.maven.SignInTest and org.openqa.selenium.WebDriver are in unnamed module of loader 'app')
+

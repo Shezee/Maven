@@ -1,0 +1,13 @@
+20:20:06.418 [main] DEBUG com.sample.maven.SignInTest - Username is added in field
+20:20:06.582 [main] DEBUG com.sample.maven.SignInTest - Password is added in field
+20:20:06.716 [main] DEBUG com.sample.maven.SignInTest - Sign In button is clicked
+20:20:06.738 [main] DEBUG com.sample.maven.SignInTest - Page scrolling
+20:20:07.217 [main] DEBUG com.sample.maven.SignInTest - Screenshot of page taken
+20:20:07.336 [main] DEBUG com.sample.maven.SignInTest - Error message displayed - Authentication failed 
+20:20:07.519 [main] DEBUG com.sample.maven.SignInTest - Fields cleared
+20:20:07.669 [main] DEBUG com.sample.maven.SignInTest - Username is added in field
+20:20:07.788 [main] DEBUG com.sample.maven.SignInTest - Password is added in field
+20:20:07.884 [main] DEBUG com.sample.maven.SignInTest - Sign In button is clicked
+20:20:07.904 [main] DEBUG com.sample.maven.SignInTest - Page scrolling
+20:20:08.246 [main] DEBUG com.sample.maven.SignInTest - Screenshot of page taken
+20:20:08.349 [main] DEBUG com.sample.maven.SignInTest - Error message displayed - Authentication failed 
